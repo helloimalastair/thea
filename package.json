@@ -1,0 +1,17 @@
+{
+	"scripts": {
+		"dev": "wrangler dev -j --test-scheduled",
+		"deploy": "wrangler deploy -j",
+		"lint": "biome check --write"
+	},
+	"dependencies": {
+		"fast-xml-parser": "^4.4.0",
+		"hono": "^4.4.5",
+		"nanoid": "^5.0.7",
+		"wrangler": "^3.60.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.8.1",
+		"@cloudflare/workers-types": "^4.20240605.0"
+	}
+}

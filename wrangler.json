@@ -1,0 +1,17 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "thea",
+	"main": "src/index.ts",
+	"workers_dev": false,
+	"minify": true,
+	"compatibility_date": "2024-06-12",
+	"kv_namespaces": [
+		{
+			"binding": "KV",
+			"id": "b54534bcb1b249249357548d0fe65076"
+		}
+	],
+	"triggers": {
+		"crons": ["*/5 * * * *"]
+	}
+}
